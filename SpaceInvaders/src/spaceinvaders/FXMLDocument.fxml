@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="pane" onMouseClicked="#onMouseClick" onMouseMoved="#onMouseMove" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spaceinvaders.FXMLDocumentController">
+   <children>
+      <Label fx:id="lifes" layoutX="29.0" layoutY="662.0" prefHeight="32.0" prefWidth="49.0" text="Lives: 3" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="scores" layoutX="933.0" layoutY="667.0" prefHeight="23.0" prefWidth="77.0" text="Score: 0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
